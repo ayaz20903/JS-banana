@@ -1,0 +1,51 @@
+body{
+    background-color: azure;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.container{
+    display: block; 
+}
+
+textarea {
+    height: 15vh;
+    width: 70%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.output{
+    display: flex;
+    border: 1px solid black;
+    height: 15vh ;
+    width: 70%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+button{
+    margin-left: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    background-color: black;
+    color: azure;
+}
+
+button:hover{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
